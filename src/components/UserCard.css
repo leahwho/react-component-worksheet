@@ -1,0 +1,57 @@
+.user-card {
+  height: 150px;
+  width: 330px;
+  background: #9cd9ac; 
+  font-family: monospace;
+  display: grid;
+  grid-template-areas: 
+  "top-left top-right"
+  "bottom-left bottom-right";
+  box-shadow: 3px 3px 5px 6px #ccc; 
+  margin: 10px;
+}
+
+.user-badge {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.user-avatar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  place-self: center;
+  margin-left: 10px;
+}
+
+.user-name {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  color: turquoise;
+  font-size: 50px;
+  margin-top: 30px;
+  text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
+}
+
+.user-rank {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: 20px;
+  margin-top: 80px;
+}
+

@@ -1,0 +1,36 @@
+.product {
+  display: grid;
+}
+
+.product-image {
+  width: 400px;
+  margin: 10px 0 0 0;
+}
+
+.product-name{
+  margin: 10px 0 0 0;
+  padding-left: 5px;
+  text-align: left;
+  font-family: monospace;
+  font-size: 23px;
+}
+
+.product-price{
+  margin: 10px;
+  text-align: left;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.standard-price {
+  padding-left: 5px;
+}
+
+.discount-price {
+  padding-left: 5px;
+}
+
+.strike-out {
+  color: red;
+  text-decoration: line-through;
+}

@@ -1,0 +1,38 @@
+.under-100 {
+  width: 55px;
+  background: #a7dada;
+  padding: 5px;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: auto;
+  font-family: monospace;
+  border-radius: 20px;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.over-100 {
+  width: 55px;
+  background: #3cc9c9;
+  padding: 5px;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: auto;
+  font-family: monospace;
+  border-radius: 20px;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.over-1000 {
+  width: 55px;
+  background: #099898;
+  padding: 10px;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: auto;
+  font-family: monospace;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: inset 0 0 10px #000000;
+  margin-left: 5px;
+  
+}
